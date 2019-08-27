@@ -15,12 +15,12 @@ import java.util.Optional;
 @Service
 @GraphQLApi
 public class StudentService {
-    private final GiphyService giphyService;
+
     private final StudentRepository studentRepository;
 
-    public StudentService(StudentRepository carRepository,GiphyService giphyService) {
+    public StudentService(StudentRepository carRepository) {
         this.studentRepository = carRepository;
-        this.giphyService= giphyService;
+
     }
     @GraphQLQuery(name = "students")
     public List<Student> getStudents(){
@@ -40,8 +40,5 @@ public class StudentService {
     }
 
 
-    @GraphQLQuery(name = "giphyUrl")
-    public String getGiphyUrl(@GraphQLContext Student student) {
-        return giphyService.getGiphyUrl(student.getName());
-    }
+
 }
