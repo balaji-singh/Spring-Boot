@@ -42,6 +42,9 @@ This project has integrated actuator (`monitoring`),  JPA (`powerful ORM framewo
 6. **`Note: Each demo has a detailed README file. Remember to check it before running the demo~`**
 7. **`Note: In some condition you have to execute sql to prepare data before running demo, don't forget it~`**
 
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/balaji-singh/spring-boot.svg)](https://starchart.cc/balaji-singh/spring-boot)
 ## Introduction of each Module
 
 | Module Name                                                  | Module Description                                           |
