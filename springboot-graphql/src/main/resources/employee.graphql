@@ -1,0 +1,16 @@
+schema {
+ query: Query
+}
+
+type Query {
+ allEmployees: [Employee]
+ employee(id: String): Employee
+}
+
+type Employee {
+  empId: String
+  empName: String
+  empType: String
+  empDept: String
+  empSal: String
+}
