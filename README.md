@@ -42,3 +42,15 @@ This project has integrated actuator (`monitoring`),  JPA (`powerful ORM framewo
 6. **`Note: Each demo has a detailed README file. Remember to check it before running the demo~`**
 7. **`Note: In some condition you have to execute sql to prepare data before running demo, don't forget it~`**
 
+## Introduction of each Module
+
+| Module Name                                                  | Module Description                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [springboot-demo](./springboot-demo) | a helloworld demo.                                           |
+| [springboot-first-microservice](./springboot-first-microservice) | a demo to crate first microservice by using spring boot.           |
+| [springboot-graphql-gui-annotations](./springboot-graphql-gui-annotations)     | a demo to use annotations with GraphQL and spring-boot. |
+| [springboot-graphql](./springboot-graphql) | a demo to  integrate spring-boot with GraphQL |
+| [springboot-jpa-rest-demo](./springboot-jpa-rest-demo) | a JPA demo to  integrate spring-boot with DB |
+| [springboot-mvc-chatapp](./springboot-mvc-chatapp)       | TODO.                 |
+
+
