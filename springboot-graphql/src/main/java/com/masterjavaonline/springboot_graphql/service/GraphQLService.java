@@ -53,8 +53,8 @@ public class GraphQLService {
 
         Stream.of(
                 new Employee("1001", "Bala S Singh", "Permenent","IT", "1000000"),
-                new Employee("1001", "Dragan", "Permenent","IT", "2000000"),
-                new Employee("1001", "Vimal", "Contract","Accounts", "500000")
+                new Employee("1002", "Dragan Gaic", "Permenent","IT", "2000000"),
+                new Employee("1003", "Vimal Tiwari", "Contract","Accounts", "500000")
         ).forEach(employee -> {
             employeeRepository.save(employee);
         });
