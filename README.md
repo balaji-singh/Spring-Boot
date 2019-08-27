@@ -32,3 +32,13 @@ This project has integrated actuator (`monitoring`),  JPA (`powerful ORM framewo
 - **H2**
 - **Hsql DB**
 
+## Getting Started
+
+1. `git clone https://github.com/balaji-singh/Spring-Boot`
+2. Open the cloned project in IDEA
+3. Import the `pom.xml` file from the root directory using `Maven Projects` panel
+4. If you can not find `Maven Projects` panel, try to tick `View -> Tool Buttons` on and the `Maven Projects` panel will appear on the right side of IDEA.
+5. Find each Application class to run each module.
+6. **`Note: Each demo has a detailed README file. Remember to check it before running the demo~`**
+7. **`Note: In some condition you have to execute sql to prepare data before running demo, don't forget it~`**
+
