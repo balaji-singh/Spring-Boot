@@ -17,7 +17,7 @@
 
 `Spring Boot Practices ` is a project for learning and practicing `spring boot`, including 7 demos, and more have to do.
 
-This project has integrated actuator (`monitoring`),  JPA (`powerful ORM framework `),swagger (`API interface management and tests`), GraphQL (`Graph Query Language`).
+This project has integrated actuator (`monitoring`),  JPA (`powerful ORM framework `),swagger (`API interface management and tests`), GraphQL (`Graph Query Language`). sleuth,zipkin(`A Cloud based tracing API`)
 
 ## Branch Introduction
 
@@ -55,5 +55,6 @@ This project has integrated actuator (`monitoring`),  JPA (`powerful ORM framewo
 | [springboot-graphql](./springboot-graphql) | a demo to  integrate spring-boot with GraphQL |
 | [springboot-jpa-rest-demo](./springboot-jpa-rest-demo) | a JPA demo to  integrate spring-boot with DB |
 | [springboot-mvc-chatapp](./springboot-mvc-chatapp)       | TODO.                 |
+| [springboot-cloud-sleuth-zipkin](./springboot-cloud-sleuth-zipkin)       | A Demo to use cloud based tracing api    |
 
 
